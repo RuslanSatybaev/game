@@ -45,7 +45,8 @@ public class AppConfig {
     public DataSource dataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://localhost:3306/rpg?serverTimezone=UTC&characterEncoding=UTF-8");
+
+        dataSource.setUrl("jdbc:mysql://localhost:3306/rpg?useUnicode=true&serverTimezone=UTC&useSSL=false");
         dataSource.setUsername("root");
         dataSource.setPassword("root");
         return dataSource;

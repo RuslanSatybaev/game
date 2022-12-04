@@ -64,7 +64,7 @@
             <option>20</option>
         </select>
      <label style="float: right; margin-right: 10px" for="limit">Players in a page: </label>
-
+ru
 <br>
 
     <table style="margin-top: 10px" class="table">
@@ -73,8 +73,7 @@
             <th scope="col">#</th>
             <th scope="col">Name</th>
             <th scope="col">Title</th>
-            <th scope="col">Race</th>
-            <th scope="col">Profession</th>
+
             <th scope="col">Experience</th>
             <th scope="col">Level</th>
             <th scope="col">Until Next Level</th>
@@ -90,11 +89,11 @@
     <h5 id="count" style="float: right; margin-right: 20px"></h5>
     <div>
         <ul id="pagging-bar" class="pagination pagination-sm justify-content-center">
-
+qw
         </ul>
     </div>
 
-
+as
     <button style="margin-bottom: 15px" type="button" class="btn btn-info" onclick="clickCreate()">Create new player</button>
     <form style="background-color: #E9ECEF; padding: 20px; border-radius: 10px; display: none" id="createButton">
         <div class="form-row">
